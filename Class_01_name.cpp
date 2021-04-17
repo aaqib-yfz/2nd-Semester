@@ -16,7 +16,7 @@ int main()
     first_student.setName("aaqib");
     first_student.showName();
 
-    student second_studen;
+    student second_studen; 
     second_studen.setName("anfal");
     second_studen.showName();
 return 0;

@@ -2,8 +2,8 @@
 #include <iostream>
 using namespace std;
 class Student{
-    int rollno;
-public:
+    int rollno ;
+public: 
     void setRollno(int rn){
     rollno = rn;
     }
