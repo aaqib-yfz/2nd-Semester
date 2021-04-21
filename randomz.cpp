@@ -27,6 +27,7 @@ void input(student_data* per){
         cin>> per[i].rollno;
         cout << "Enter Marks";
         per[i].total(x,y,z);
+        cout << endl;
     }
 }
 void output(student_data* per ){
@@ -46,5 +47,5 @@ int main()
     student_data per[5];
     input(per);
     output(per);
-return 0;
+    return 0;
 }
