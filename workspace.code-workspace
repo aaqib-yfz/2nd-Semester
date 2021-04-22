@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\1st_semester"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Web Development"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web Development"
+	}
+}
