@@ -8,7 +8,7 @@ struct players_data
  string hits;    
 };
 
-void input(players_data* per){
+void input(players_data *per){
     for(int i=0; i<5; i++){
     cout << "   Enter Players Data  "<<endl;
     cout << " Enter Name Of Player "<< i <<":";
@@ -20,7 +20,7 @@ void input(players_data* per){
     cout << endl;
     }
 }
-void output(players_data* per){
+void output(players_data *per){
     cout << "*****DATA OF THE PLAYERS*****"<<endl;
     for (int i = 0; i < 5; i++)
     {
@@ -38,7 +38,7 @@ void output(players_data* per){
 
 int main()
 {
-players_data per[5];
+players_data *per[5];
 input(per);
 output(per);
 return 0;
