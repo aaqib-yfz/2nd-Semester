@@ -25,23 +25,20 @@ public:
 		strcpy(name,obj.name);
 		cout<<"copy constructor"<<endl;
 	}
-	~Student(){
-		delete []name;
-		cout<<" i am destrctor"<<endl;
-	}
+	
 };
 void show(Student obj1){
 	cout<<"My roll no="<<obj1.rollNo<<endl;
 	cout<<"name="<< obj1.name<<endl;
 	}
 int main(){
-//	Student astd(10,"ali");
-//	Student bstd = astd; // copy constructor is called automatically
-	{
-	Student cstd(11,"saif");
-//	show(cstd);
+	student a(23,"aaqib");
+	student b(a);
+	#include <iostream>
+	using namespace std;
+	int main()
+	
+	return 0;
 	}
-	//cout<<x;
-//	show(bstd); // invoke copy constructor for astd object 
 	return 0;
 }
