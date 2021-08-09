@@ -19,11 +19,11 @@ public:
         cout << "The Roll no of student  " << rollno;
         cout << "The name of student " << name;
     }
-    student(const student &abc){
+    student( const student &abc){
         rollno=abc.rollno;
         name=abc.name;
     }
-};
+}; 
 int main()
 {
     student astd(23,"aaqib");
