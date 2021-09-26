@@ -66,7 +66,7 @@ public:
 	{
 		return end;
 	}
-
+	
 };
 
 class Triangle
@@ -153,6 +153,18 @@ public:
 	}
 };
 
+int main(){
+	Point aaqib;
+	aaqib.setX(10);
+	aaqib.setY(20);
+	aaqib.display();
 
+	Line l1;
+	l1.setStart(aaqib);
+	l1.setEnd(aaqib);
+	
+	l1.getStart();
+	l1.getEnd();
+}
 
 
